@@ -34,9 +34,9 @@ project_folder/
 
 Install the following Python libraries before running the program:
 
-
+```bash
 pip install opencv-python numpy
-
+```
 
 ---
 
@@ -52,7 +52,7 @@ pip install opencv-python numpy
 
 The system follows the following processing pipeline:
 
-
+```text
 Input Video
       ↓
 Frame Extraction
@@ -76,7 +76,7 @@ Damage Classification
 Output Annotation
       ↓
 Final Video Generation
-
+```
 
 ---
 
@@ -225,10 +225,5 @@ The output screen displays all three stages side-by-side for easy comparison.
 
 ---
 
-# Author
 
-Road Damage Detection and Segmentation Project
-Implemented using OpenCV and Python.
-
-```
 ```
